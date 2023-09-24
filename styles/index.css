@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    width: 100vw; 
+    padding: 0;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    height: 100vh;
+}
+
+/* Login Box Styling */
+.login-container {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.image-container {
+    flex: 1;
+    background-color: #eeeeee85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down;
+}
+
+.form-container {
+    flex: 1;
+    display: flex; 
+    gap: 2rem; 
+    flex-direction: column; 
+    justify-content: center;
+    padding: 20px;
+    justify-items: center;
+}
+
+#login-header {
+    text-align: center;
+    color: #666;
+}
+
+/* Warning pop up styling */
+.warning {
+    color: red; 
+    width: auto; 
+    padding: 1rem; 
+    text-align: center;
+}
+
+.no-warning {
+    display: none; 
+}
+
+/*  */
+
+/* Form detailing */
+
+form {
+    width: 60%; 
+    margin: 0 auto 0 auto;  
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+label {
+    font-size: 0.92rem;
+    margin-bottom: 2rem;  
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"], 
+#gender, 
+input[type="password"] {
+    margin-top: 0.2rem; 
+    width: 100%;
+    padding: 0.62rem;
+    font-size: 0.86rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.optional-btn {
+    margin-top: 1.4rem;
+    font-size: 0.8rem;
+    text-align: center;  
+}
+
+#small-btn {
+    text-decoration: underline;
+    border: none; 
+    background: none;
+    color: rgba(0, 0, 255, 0.814); 
+    cursor: pointer; 
+}
+
+#small-btn:hover {
+    color: rgba(0, 0, 255, 0.642);
+}
+
+/*  */
+
+/* STYLING FOR LOGIN PAGE ENDS */
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+
+    .image-container {
+        display: none;
+    }
+
+}
+
+
+

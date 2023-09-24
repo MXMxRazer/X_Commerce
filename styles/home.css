@@ -1,0 +1,137 @@
+
+
+/* Wrapper styles */
+.wrapper {
+    max-width: 97%;
+    margin: 0 auto 0 auto;  
+}
+
+
+ /* Basic styling for layout */
+ .container {
+  display:flex; 
+  padding: 2rem; 
+  border-bottom: 4px solid #aaa; 
+  display: flex;
+}
+
+#img-huge {
+  width: 80%; 
+  border-radius: 2rem; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-container {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap: 1rem; 
+  width: 80%;
+}
+.content {
+  margin: 0;
+}
+.buttons {
+  margin-top: 20px;
+}
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Featured Product Header */
+
+#featured-products-header h1 {
+    color: #aaa;
+    font-weight: 400;
+    margin: 1.2rem 0 1.4rem 0;  
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* Featured Products Section */
+.featured-products {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.2rem; 
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.price {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.add_cart_btn {
+    background-color: rgb(239, 161, 16);
+}
+
+.add_cart_btn:hover {
+    background-color: rgb(184, 126, 19);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+
+  * {
+    font-size: 1rem; 
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container {
+    display: flex; 
+    justify-content: center;
+  }
+
+  .content-container {
+    text-align: center;
+    margin-top: 0.6rem; 
+  }
+
+}

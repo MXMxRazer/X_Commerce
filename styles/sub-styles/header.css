@@ -1,0 +1,54 @@
+
+/* Header Styles */
+header {
+    background-color: rgb(239, 161, 16);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+
+    * {
+        font-size: 0.92rem; 
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        margin-top: 2rem; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}

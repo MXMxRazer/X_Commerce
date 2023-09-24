@@ -1,0 +1,113 @@
+/* Search Page Styling */
+
+/* Search card pop up styling */
+.container-card {
+    display: flex; 
+    flex-direction: column;
+}
+
+.card {
+    margin: 1.4rem auto 0 auto; 
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 0.6rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-image {
+    width: 30%;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+.card-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.card-description {
+    color: #777;
+    margin-top: 0.8rem;
+}
+
+.card-buttons {
+    margin-top: 1.2rem;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn {
+    background-color: rgb(239, 161, 16); 
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.add-btn:hover {
+    background-color: rgb(184, 126, 19); 
+}
+
+.card-price {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Search Bar Styling */
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #ccc;
+    border-radius: 2rem;
+    padding: 0.4rem;
+    width: 80%; 
+    margin: 2rem auto 1rem auto; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#searchInput {
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    width: 80%;
+    border-radius: 2rem;
+}
+
+#searchButton {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3rem;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/*  */
