@@ -32,4 +32,4 @@ Fig: My Cart Page
 Fig: Search Page
 
 ![uploadProduct](https://github.com/MXMxRazer/X_Commerce/assets/107698120/9e06f07a-b749-427c-a8e9-8daee026f748)
-Fig: Upload Product Page
+Fig: Upload Product Page.
